@@ -18,7 +18,7 @@ window.onload = function() {
   document.getElementById("url-field").appendChild(form);
   document.getElementById("url-field").appendChild(progress);
   document.body.appendChild(script);
-  document.getElementById("dropzone").style.cssText = "border-radius: 5px !important ;width: 500px !important; height: 355px !important; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important; background-color: white !important;";
+  document.getElementById("dropzone").style.cssText = "overflow: auto !important;border-radius: 5px !important ;width: 500px !important; height: 355px !important; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important; background-color: white !important;";
 
 
  var dropzone = new Dropzone("#dropzone", {

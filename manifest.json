@@ -19,7 +19,7 @@
  "content_scripts": [
     {
       "matches": ["https://www.reddit.com/*"],
-      "js": ["script.js", "dropzone.js"]
+      "js": ["script.js", "libs/dropzone.js"]
     }
   ]
 }
