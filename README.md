@@ -1,6 +1,6 @@
 # DragDropReddit
 # Version: 1.0.1
-![alt text](https://imgur.com/a/3Uvr5 "Logo Title Text 1")
+![alt text](https://i.imgur.com/RajDqqu.png "Logo Title Text 1")
 #### A drag and drop Chrome Extension for subreddits that dont allready have the drag and drop feature.(Usually NSFW)
 
 # Upload straight to imgur from File Explorer
