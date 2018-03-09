@@ -40,7 +40,7 @@ window.onload = function() {
  },
    url: "https://api.imgur.com/3/upload",
    headers: {
-   'Authorization': 'Bearer 747763c1b6826fdc24b1b8a656d53e682b801ac0',
+   'Authorization': '',
    'Accept': 'application/json',
    'Cache-Control': '',
    'X-Requested-With': '',
