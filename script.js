@@ -25,12 +25,11 @@ window.onload = function() {
    init: function() {
    this.on("success", function(e, res) {
      var link =`${res.data.link}`;
+
      document.getElementById("url").value = `${link}`;
     }); //Print the link inside the imgur json response, do the same with gfycat
    this.on("error", function(file, err){
      document.getElementById("url").value = "ERROR CHECK CONSOLE";
-     document.getElementById("url").style.cssText = "color: red !important;";
-     //progress.style.cssText = "background-color: red !important;"
 
      if(err.data.error.message == undefined){
        console.error(`UPLOAD ERROR: ${err.data.error}`)
@@ -41,20 +40,10 @@ window.onload = function() {
  },
    url: "https://api.imgur.com/3/upload",
    headers: {
-   'Authorization': 'Client-ID e5df71c6267ac42',
+   'Authorization': 'Bearer 747763c1b6826fdc24b1b8a656d53e682b801ac0',
    'Accept': 'application/json',
    'Cache-Control': '',
    'X-Requested-With': '',
    }
  });
-
-
-
-
-
-  Dropzone.options.dropzone = {
-
-    }
-
-
 }

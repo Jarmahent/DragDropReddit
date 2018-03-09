@@ -3,7 +3,7 @@
 
  "name": "Drag And Drop for Reddit",
  "description": "Universal Drag And drop extension for reddit.",
- "version": "1.0.0",
+ "version": "1.0.1",
  "icons": { "16": "logo.png",
            "48": "logo.png",
           "128": "logo.png" },
